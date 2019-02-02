@@ -1,0 +1,33 @@
+{
+  "name": "conventional-changelog-themeisle",
+  "version": "1.0.14",
+  "description": "Conventional changelog preset build for ThemeIsle products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "conventional-changelog.js",
+    "index.js",
+    "parser-opts.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codeinwp/conventional-changelog-themeisle.git"
+  },
+  "dependencies": {
+    "q": "^1.5.1",
+    "compare-func": "^1.3.1"
+  },
+  "author": "ThemeIsle<friends@themeisle.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codeinwp/conventional-changelog-themeisle/issues"
+  },
+  "homepage": "https://github.com/Codeinwp/conventional-changelog-themeisle#readme"
+}
