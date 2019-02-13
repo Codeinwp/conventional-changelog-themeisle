@@ -2,6 +2,7 @@
 
 {{#each commitGroups}}
 * {{#if title}}{{#if @root.isPatch}}**{{else}}#### {{/if}}{{title}}{{#if @root.isPatch}}**{{/if}}{{/if}}
+
 {{#each commits}}   {{> commit root=@root}}{{/each}}
 {{/each}}
 {{> footer}}
